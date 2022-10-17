@@ -1,0 +1,13 @@
+<h1>{{ name }}</h1>
+
+<dl>
+    <td>Nombre: </td>
+        <dd>{{ name }}</dd>
+    <td>Edad: </td>
+        <dd>{{ age }}</dd>
+    <td>Descripción</td>
+        <dd> {{ description() }}</dd>
+</dl>
+
+<button (click)="setName('Spiderman')"> Cambiar héroe </button>
+<button (click)="setAge(32)"> Cambiar edad </button>
