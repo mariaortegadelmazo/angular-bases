@@ -5,6 +5,7 @@ import { MatGridListModule } from '@angular/material/grid-list'
 
 import { HeroesModule } from './heroes/heroes.module';
 import { CounterModule } from './counter/counter.module';
+import { DbzModule } from './dbz/dbz.module';
 
 import { AppComponent } from './app.component';
 
@@ -18,7 +19,8 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     MatGridListModule,
     HeroesModule,
-    CounterModule
+    CounterModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
